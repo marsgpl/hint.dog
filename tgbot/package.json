@@ -1,0 +1,21 @@
+{
+  "name": "hint-dog-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "CONFIG_PATH=config.json ts-node src/index.ts",
+    "build": "tsc",
+    "prod": "CONFIG_PATH=config.prod.json node build/index.js"
+  },
+  "author": "marsgpl",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "^20.11.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+}

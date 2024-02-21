@@ -1,0 +1,15 @@
+{
+    "mongo": {
+        "url": "mongodb://root:local-root-password@127.0.0.1:27017/hintdog?authSource=admin&appName=api"
+    },
+    "botApi": {
+        "token": "6519006756:AAG2EjFXgz5PaIx8Lrlf4NUrRxF8RWyb-i8"
+    },
+    "webHookServer": {
+        "host": "127.0.0.1",
+        "port": 14835,
+        "endpoint": "/kbyctxr857347DNHFTRE",
+        "secret": "nv0q8e497qGTHYUKR98hfaWEHdg533-0j",
+        "url": "https://hint.dog/kbyctxr857347DNHFTRE"
+    }
+}
